@@ -11,26 +11,26 @@ body {
 }
 
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
-  background-color: #eeb733;
+  background-color: #eeb733 !important;
 }
 
 .nav-link, .nav-link:active, .nav-link:focus {
-  color: #eeb733;
+  color: #eeb733 !important;
 }
 
 .nav-link:hover {
-  color: #eeb733;
-  font-weight: 700;
+  color: #eeb733 !important;
+  font-weight: 700 !important;
 }
 
 .btn-main {
-  background-color: #eeb733;
-  color: #fff;
+  background-color: #eeb733 !important;
+  color: #fff !important;
 }
 
 .btn-main:hover {
-  color: #eeb733;
-  background-color: #fff;
-  border: 1px solid #eeb733;
-  font-weight: bold;
+  color: #eeb733 !important;
+  background-color: #fff !important;
+  border: 1px solid #eeb733 !important;
+  font-weight: bold !important;
 }
