@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  background-color: #eeb733;
+}
+
+.nav-link, .nav-link:active, .nav-link:focus {
+  color: #eeb733;
+}
+
+.nav-link:hover {
+  color: #eeb733;
+  font-weight: 700;
+}
+
+.btn-main {
+  background-color: #eeb733;
+  color: #fff;
+}
+
+.btn-main:hover {
+  color: #eeb733;
+  background-color: #fff;
+  border: 1px solid #eeb733;
+  font-weight: bold;
+}
