@@ -12,6 +12,7 @@ body {
 
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
   background-color: #eeb733 !important;
+  color: #fff !important;
 }
 
 .nav-link, .nav-link:active, .nav-link:focus {
