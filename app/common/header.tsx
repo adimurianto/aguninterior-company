@@ -24,7 +24,6 @@ export default function Header() {
         <li className="nav-item"><a href="/" className={pathname == "/" ? "nav-link active" : "nav-link"} aria-current="page">Home</a></li>
         <li className="nav-item"><Link href="/profile" className={pathname == "/profile" ? "nav-link active" : "nav-link"}>Profile</Link></li>
         <li className="nav-item"><Link href="/office" className={pathname == "/office" ? "nav-link active" : "nav-link"}>Office</Link></li>
-        <li className="nav-item"><Link href="/gallery" className={pathname == "/gallery" ? "nav-link active" : "nav-link"}>Gallery</Link></li>
       </ul>
     </header>
   )
